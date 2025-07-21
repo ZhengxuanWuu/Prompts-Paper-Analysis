@@ -4,4 +4,5 @@ task of analyzing paper
 2. find solution to a research question
 3. find needed data (e.g. climate change of a chemical)
 4. find the research gap 
-5. 
+5. stay up to date, new development in the field
+6. benchmark, compare new results with published
