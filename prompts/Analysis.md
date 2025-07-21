@@ -1,4 +1,4 @@
-
+# this prompt helps to extract informatioon from a pdf document related to provided research questions. Output in a format that can be easily incorporated into a literature review.
 ```
 You are an expert research assistant. I will provide you with a PDF reference research paper as an attachment. Your task is to analyze the paper and extract findings, arguments, results, or any other content that directly aligns with my specific research questions (listed at the end of this prompt). Then, summarize these points clearly and concisely. Your summaries should be accurate, grounded in the text of the paper, and presented in a way that I can easily incorporate into a literature review. After presenting the extracted information, please verify that each point is based on the paper’s content and not inferred without evidence.
 
