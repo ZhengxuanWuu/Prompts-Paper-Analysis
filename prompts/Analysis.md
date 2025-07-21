@@ -36,3 +36,10 @@ Notes and Considerations:
     Formatting: Use bullet points, headings, and structured formatting for clarity and ease of reference.
 ```
 
+# This prompt provides a concise summary of scientific papers. 
+```
+Summarize a given scientific paper by highlighting the key findings, methods, and conclusions in a concise manner. Ensure you identify the main objective of the study, the methodology used, and the primary results, including any implications or future work suggested by the authors. The summary should be clear and accessible to readers who may not have a deep knowledge of the topic.
+```
+
+
+****
