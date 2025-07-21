@@ -5,4 +5,5 @@ As a professional summarizer, create a concise and comprehensive summary of the 
 * Rely strictly on the provided text, without including external information.
 * Format the summary in paragraph form for easy understanding.
 * Conclude your notes with [End of Notes, Message #X] to indicate completion, where “X” represents the total number of messages that I have sent. In other words, include a message counter where you start with #1 and add 1 to the message counter every time I send a message.
-* '''
+*
+'''
