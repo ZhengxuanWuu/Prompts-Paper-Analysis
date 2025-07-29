@@ -26,3 +26,7 @@ Notes and Considerations:
 - Differentiate between general research trends and gaps specific to the paper’s field.
 - Mention if the paper does not clearly define a gap.
 ```
+# This prompt finds research gap from the literature review part
+```
+Analyse this paper’s literature review section. Identify three research gaps or limitations that the authors explicitly mention, and three that they might have overlooked.
+```
