@@ -61,5 +61,8 @@ List all major assumptions made by the authors, both explicit and implicit. Whic
 ```
 Evaluate the research methodology using these criteria: appropriateness, rigor, limitations, and potential biases. Suggest specific improvements.
 ```
-
+# This prompt analyse the sample of the study
+```
+AnalySe the study’s sample: its characteristics, selection method, size, and potential biases. How might these factors affect the findings?
+```
 ****
