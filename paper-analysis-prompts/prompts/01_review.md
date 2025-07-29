@@ -41,5 +41,11 @@ Notes and Considerations:
 Summarize a given scientific paper by highlighting the key findings, methods, and conclusions in a concise manner. Ensure you identify the main objective of the study, the methodology used, and the primary results, including any implications or future work suggested by the authors. The summary should be clear and accessible to readers who may not have a deep knowledge of the topic.
 ```
 
+# This prompt provides a qucik review
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+
+
 
 ****
