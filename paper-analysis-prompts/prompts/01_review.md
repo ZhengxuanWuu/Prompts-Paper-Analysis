@@ -53,7 +53,9 @@ Explain the key findings in plain English, focusing on practical implications ra
 ```
 Explain the key figures and tables in simple terms. What story is each visualisation trying to tell, and what might be missing?
 ```
-
+# This prompt extract the assumption made in the study
+List all major assumptions made by the authors, both explicit and implicit. Which ones might be problematic?
+```
 
 
 ****
