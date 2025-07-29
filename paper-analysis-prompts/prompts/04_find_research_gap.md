@@ -30,3 +30,8 @@ Notes and Considerations:
 ```
 Analyse this paper’s literature review section. Identify three research gaps or limitations that the authors explicitly mention, and three that they might have overlooked.
 ```
+# This prompt finds research gap from the limitation of the paper
+```
+Based on this paper’s findings and limitations, suggest 3 specific research questions that could be explored in future studies.
+```
+
