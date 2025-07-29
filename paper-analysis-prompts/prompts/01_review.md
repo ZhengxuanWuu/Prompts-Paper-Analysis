@@ -49,6 +49,10 @@ Read this academic paper and give me a 3-paragraph summary: one for the main res
 ```
 Explain the key findings in plain English, focusing on practical implications rather than statistical details. What do these results mean for the field?
 ```
+# This prompt explains the figures and tables
+```
+Explain the key figures and tables in simple terms. What story is each visualisation trying to tell, and what might be missing?
+```
 
 
 
