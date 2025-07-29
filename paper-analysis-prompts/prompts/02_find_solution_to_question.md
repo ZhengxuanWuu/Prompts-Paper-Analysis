@@ -26,3 +26,7 @@ Notes and Considerations:
 - Clearly distinguish between evidence and speculation.
 - If multiple aspects of the paper are relevant, structure them by themes (e.g., methods, data, conclusions).
 ```
+# This prompt breaks down methodology
+```
+Break down the methodology section into simple steps, as if explaining it to an undergraduate student. Highlight any unique or innovative aspects of their approach.” 
+```
