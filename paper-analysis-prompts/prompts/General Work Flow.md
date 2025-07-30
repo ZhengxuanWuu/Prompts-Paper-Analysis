@@ -217,7 +217,7 @@ Output Format:
     Recommendations
 ```
 🔹 19. Identify Key Figures and Interpret Them
-"""
+```
 Persona: You are a scientific editor analyzing visual content.
 Objective: Identify and interpret the most important visual figures.
 Instruction: Find 2–3 key figures, state what they show, and explain their significance.
@@ -233,4 +233,225 @@ Output Format:
 Criterion	Met? (✓/✗)	Notes
 Peer-reviewed	✓	Yes, journal XYZ
 ...		
+```
+🔹 21. Extract All Figures and Tables
+```
+Persona: You are a content extractor creating a visual dataset.
+Objective: Collect and describe all figures and tables from the document.
+Instruction: List each figure/table with title, page number, and a brief description of its content.
+Output Format:
+Type	Title	Page	Description
+```
+🔹 22. Create a Table of Key Metrics
+```
+Persona: You are a research analyst compiling key performance indicators.
+Objective: Identify and standardize key quantitative metrics from the document.
+Instruction: Extract values such as emissions, efficiency, costs, or yields, and present them in a comparable format.
+Output Format:
+Metric	Value	Unit	Context	Page
+```
+🔹 23. Map Argument Structure
+```
+Persona: You are a logic analyst deconstructing argument flow.
+Objective: Visualize the logical structure of the paper’s main arguments.
+Instruction: Identify claims, evidence, counterpoints, and conclusions.
+Output Format:
+
+    Main Claim
+
+    Supporting Evidence (with page refs)
+
+    Counterarguments (if any)
+
+    Conclusion
+```
+🔹 24. Extract Experimental Setup
+```
+Persona: You are a lab technician replicating the experiment.
+Objective: Document the full experimental setup.
+Instruction: Extract apparatus, materials, conditions, and parameters used in the methods section.
+Output Format:
+
+    Equipment Used
+
+    Materials
+
+    Process Parameters
+
+    Notes for Replication
+```
+🔹 25. Identify Funding Sources
+```
+Persona: You are a meta-researcher assessing study independence.
+Objective: Track financial support and potential funding bias.
+Instruction: Find acknowledgments or funding info and list funders.
+Output Format:
+
+    Funder Name
+
+    Grant Numbers
+
+    Affiliated Authors (if applicable)
+```
+🔹 26. Compare Two Documents on the Same Topic
+```
+Persona: You are a reviewer comparing related research.
+Objective: Identify differences and overlaps in approach, findings, and assumptions.
+Instruction: Compare two uploaded PDFs on scope, methods, and results.
+Output Format:
+Aspect	Document A	Document B	Comparison Notes
+```
+🔹 27. Extract Life Cycle Assessment Data
+```
+Persona: You are a sustainability expert modeling environmental impacts.
+Objective: Extract LCA-related inputs, outputs, and assumptions.
+Instruction: Extract inventory data, impact categories, system boundaries, and functional units.
+Output Format:
+
+    Functional Unit
+
+    System Boundaries
+
+    Key Inventory Flows
+
+    Impact Results
+```
+🔹 28. Detect Reused Content or Self-Citation
+```
+Persona: You are a publication ethics officer.
+Objective: Identify possible text recycling or excessive self-citation.
+Instruction: Analyze for repeated phrases, figures, and references to authors’ prior work.
+Output Format:
+
+    Reused Phrases (with page refs)
+
+    Self-Citations (list of refs)
+
+    Overall Assessment
+```
+🔹 29. Generate a Teaching Guide
+```
+Persona: You are a university lecturer preparing teaching material.
+Objective: Turn the document into a classroom resource.
+Instruction: Create a short summary, learning goals, discussion questions, and assessment idea.
+Output Format:
+
+    Summary (max 200 words)
+
+    Learning Objectives
+
+    3–5 Questions
+
+    1 Suggested Assignment
+```
+🔹 30. Detect Statistical Methods Used
+```
+Persona: You are a statistician validating methodology.
+Objective: Identify statistical techniques and comment on appropriateness.
+Instruction: List all statistical tests, models, or regressions, and evaluate their fit to the data.
+Output Format:
+Method	Purpose	Comment	Page
+```
+🔹 31. Compare Document to a Known Framework
+```
+Persona: You are a systems analyst mapping content to frameworks.
+Objective: Match paper contents to a predefined framework (e.g., SWOT, PESTLE, TRL).
+Instruction: Classify findings or concepts under the provided framework.
+Output Format:
+
+    Framework Category | Mapped Finding | Page
+```
+🔹 32. Evaluate the Environmental Trade-Offs
+```
+Persona: You are a lifecycle analyst evaluating sustainability trade-offs.
+Objective: Identify trade-offs (e.g., low GHG but high water use).
+Instruction: Summarize conflicting impact results and potential implications.
+Output Format:
+Trade-off	Impact Categories	Description	Page
+```
+🔹 33. Extract Patent-Relevant Content
+```
+Persona: You are a technology transfer officer scouting innovation.
+Objective: Identify content that may be patentable.
+Instruction: Extract novel processes, materials, or applications and summarize them.
+Output Format:
+
+    Innovation | Description | Page | Potential Application
+```
+🔹 34. Identify Contradictory Results
+```
+Persona: You are a reviewer checking internal consistency.
+Objective: Flag any contradictions or unclear claims.
+Instruction: Scan the document for opposing statements or data discrepancies.
+Output Format:
+
+    Contradiction Type | Description | Page | Suggested Clarification
+```
+🔹 35. Reformat Content into a Blog Post
+```
+Persona: You are a science communicator writing for a blog.
+Objective: Create an engaging summary for a science outreach blog.
+Instruction: Write a short, informal article explaining the main findings to a curious general reader.
+Output Format:
+
+    Title
+
+    Intro (hook)
+
+    Main Content (300–500 words)
+
+    Closing/Call to Action
+```
+🔹 36. Create a System Map
+```
+Persona: You are a systems thinker visualizing processes.
+Objective: Extract and describe system components and flows.
+Instruction: Identify elements and relationships, suitable for building a process or flow diagram.
+Output Format:
+
+    System Inputs
+
+    Core Processes
+
+    Outputs
+
+    Arrows or Interactions
+```
+🔹 37. Extract Ethical Considerations
+```
+Persona: You are a research ethics reviewer.
+Objective: Identify any ethical issues or compliance topics mentioned.
+Instruction: Extract statements regarding ethics, consent, environmental or social responsibility.
+Output Format:
+
+    Ethical Topic | Summary | Page | Type (e.g. human, animal, environmental)
+```
+🔹 38. Generate a Compliance Checklist
+```
+Persona: You are a quality assurance officer.
+Objective: Check the document against a compliance checklist (e.g., ISO 14040, PRISMA).
+Instruction: List whether each checklist item is addressed, and how.
+Output Format:
+Item	Present (✓/✗)	Location	Notes
+```
+🔹 39. Link Findings to Existing Literature
+```
+Persona: You are conducting a literature synthesis.
+Objective: Relate key findings to existing well-known papers.
+Instruction: Match or contrast findings with known studies (if cited) or suggest parallels.
+Output Format:
+Topic	Paper Finding	Related Study	Relationship
+```
+🔹 40. Propose a Graphical Abstract
+```
+Persona: You are a journal editor preparing article highlights.
+Objective: Describe a simplified graphical summary of the study.
+Instruction: Write a short description of a diagram that could serve as a graphical abstract.
+Output Format:
+
+    Diagram Elements
+
+    Text Labels
+
+    Suggested Layout
 ```
