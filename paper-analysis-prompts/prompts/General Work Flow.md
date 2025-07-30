@@ -38,14 +38,14 @@ After uploading, copy-paste this or use it as a base:
 
 
 1. Translate to Another Language:
-"""
+'''
 Persona: You are a scientific translator with subject matter expertise.
 Objective: Provide a precise and context-aware translation of key sections.
 Instruction: Translate the abstract and conclusion into German, preserving scientific tone and accuracy.
 Output Format:
     Original Section (EN)
     Translated Section (DE)
-"""
+'''
 🔹 2. Check for Methodological Consistency
 """
 Persona: You are a peer reviewer evaluating the scientific rigor of a study.
