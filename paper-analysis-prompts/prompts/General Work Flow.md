@@ -35,45 +35,84 @@ After uploading, copy-paste this or use it as a base:
 
 🔄 3. Compare Two PDFs
 
-Once both PDFs are uploaded, you can ask:
+Here are some prompts can be inserted as optional task:
 
-    Compare the methods and results of Paper_A.pdf and Paper_B.pdf.
-    For each, include:
+   Translate to another language
 
-        Page numbers
+    Translate the abstract and conclusion into German, preserving scientific tone and accuracy.
 
-        Main methodological approach
+Check for methodological consistency
 
-        Key results or metrics
+    Identify any inconsistencies or gaps between the methods and results sections.
 
-        Any limitations
+Critically evaluate the assumptions
 
-Or:
+    List all assumptions stated or implied in the methodology and discuss how they could impact the results.
 
-    Extract the carbon footprint results from both papers and present them in a table, with units and assumptions if mentioned.
+Summarize for a non-expert
 
-📌 4. Reference Text by Page Number
+    Summarize this document in layman's terms for a general audience (e.g., high school level).
 
-To explicitly ask for text on a page:
+Generate questions for discussion
 
-    Show me the text from page 12 of Paper_A.pdf, and summarize the main idea.
+    Create 5–10 discussion questions suitable for a journal club or seminar based on this document.
 
-    OR
+Extract equations and variables
 
-    What is discussed in pages 5–7? Are there tables or figures?
+    Extract all equations from the document, list the variables used, and explain their meanings.
 
-📊 5. Extract Tables or Create Structured Overviews
+Compare results to a standard or benchmark
 
-Use:
+    Compare the findings in this document to current IPCC targets (or another standard you specify).
 
-    Extract all tables from this document. Present them in markdown or a simplified format.
+Build a glossary
 
-    OR
+    Extract technical terms and acronyms used in the document and define them in a glossary format.
 
-    Extract any LCA inventory data (inputs, outputs, units) if present and present as a structured table.
+Identify gaps or future research
 
-🏷️ 6. Auto-tag or Classify the Document
+    Highlight any research gaps or suggestions for future work mentioned, and suggest 2–3 new ideas based on the content.
 
-    Based on the content, generate 5–10 keywords or research tags that would help categorize this paper in a library.
-    Include research domain, methodology, key metrics, and topic focus.
+Evaluate data quality
 
+    Assess the data sources used in this paper based on quantity, transparency, uncertainty, and reproducibility.
+
+Create a timeline
+
+    Identify any historical developments, steps, or events discussed and construct a chronological timeline.
+
+Summarize limitations
+
+    List all limitations acknowledged in the paper and classify them by type (e.g., methodological, data-related, scope).
+
+Prepare content for slides
+
+    Create 5–6 key bullet points and 2 simple figures or diagrams for use in a PowerPoint presentation summarizing the paper.
+
+Convert to structured data
+
+    Extract all quantitative results and present them in a CSV-ready table format with columns for variable, value, unit, and context.
+
+Match findings with SDGs
+
+    Map the main findings or goals of the paper to relevant UN Sustainable Development Goals (SDGs).
+
+Check for bias or conflict of interest
+
+    Based on authorship, funding, or affiliations, identify potential sources of bias or conflict of interest.
+
+Extract all citations
+
+    Extract and list all cited references, including titles and authors if available, and categorize them by topic.
+
+Summarize for a policymaker
+
+    Summarize the main findings and recommendations of the paper for a policymaker with no technical background.
+
+Identify key figures and interpret them
+
+    Select the most important 2–3 figures in the document and explain what each shows, including page number and interpretation.
+
+Rate scientific credibility
+
+    Assess the scientific credibility of the paper using a checklist: peer-reviewed, transparent methods, valid data, reproducibility, etc.
