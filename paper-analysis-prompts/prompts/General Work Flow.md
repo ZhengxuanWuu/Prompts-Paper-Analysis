@@ -38,7 +38,7 @@ After uploading, copy-paste this or use it as a base:
 Here are some prompts can be inserted as optional task:
 
 
-🔹 1. Translate to Another Language
+🔹 1. Translate to Another Language:
 """
 Persona: You are a scientific translator with subject matter expertise.
 Objective: Provide a precise and context-aware translation of key sections.
