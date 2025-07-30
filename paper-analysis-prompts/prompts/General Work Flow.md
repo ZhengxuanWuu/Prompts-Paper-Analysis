@@ -33,13 +33,11 @@ After uploading, copy-paste this or use it as a base:
 
     [Insert optional task here, e.g. "Compare with Paper_B", "Translate to German", etc.]
 
-🔄 3. Compare Two PDFs
 
-Here are some prompts can be inserted as optional task:
+## Here are some prompts can be inserted as optional task:
 
 
-🔹 1. Translate to Another Language:
-
+1. Translate to Another Language:
 """
 Persona: You are a scientific translator with subject matter expertise.
 Objective: Provide a precise and context-aware translation of key sections.
