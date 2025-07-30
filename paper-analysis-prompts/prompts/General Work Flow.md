@@ -39,14 +39,13 @@ Here are some prompts can be inserted as optional task:
 
 
 🔹 1. Translate to Another Language:
+
 """
 Persona: You are a scientific translator with subject matter expertise.
 Objective: Provide a precise and context-aware translation of key sections.
 Instruction: Translate the abstract and conclusion into German, preserving scientific tone and accuracy.
 Output Format:
-
     Original Section (EN)
-
     Translated Section (DE)
 """
 🔹 2. Check for Methodological Consistency
