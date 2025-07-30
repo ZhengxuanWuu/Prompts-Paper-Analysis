@@ -12,6 +12,7 @@ The purpose could be
 1. Upload Your PDF(s)
 
 Start by uploading one or multiple PDFs directly here. For multi-PDF workflows, name them clearly (e.g., Paper_A.pdf, Paper_B.pdf).
+
 🧩 2. Use This General-Purpose Prompt Template
 
 After uploading, copy-paste this or use it as a base:
