@@ -1,4 +1,4 @@
-#Translate to Another Language
+# Translate to Another Language
 Translate the abstract and conclusion into German, preserving scientific tone and accuracy.
 
 Check for Methodological Consistency
