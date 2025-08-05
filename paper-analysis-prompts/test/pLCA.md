@@ -1,5 +1,5 @@
 ## Here an example of pLCA of iCycle is tested to see how the prompts work.
-
+1.
 ```
 Summarize a given scientific paper by highlighting the key findings, methods, and conclusions in a concise manner. Ensure you identify the main objective of the study, the methodology used, and the primary results, including any implications or future work suggested by the authors. The summary should be clear and accessible to readers who may not have a deep knowledge of the topic.
 ```
@@ -27,3 +27,12 @@ The study aims to develop a framework for prospective life cycle assessment (LCA
 - The study underscores the need for further validation of the LCA results with real-world data as the technology matures.
 - Future studies should also explore the economic feasibility and market implications of the recovered resources from the pyrolysis process to ensure the viability of such technologies in a circular economy.
 ```
+2.
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+Output:
+```
+1
+```
+
