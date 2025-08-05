@@ -164,14 +164,184 @@ Output:
 ```
 8.
 ```
-Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+You are a literature analyst with expertise in identifying gaps and opportunities in scientific research.
+
+Objective:
+Identify the research gaps explicitly or implicitly discussed in the paper, especially in relation to existing literature, unresolved challenges, or areas suggested for future work.
+
+Instructions:
+1. **Analyze Structure**: Focus on Introduction and Conclusion/Discussion for explicit mentions of gaps.
+2. **Compare with State-of-the-Art**: Identify where the paper mentions limitations of previous studies or missing dimensions in current research.
+3. **Summarize Gaps**: List all identified gaps with short descriptions and references to where they are mentioned in the paper.
+4. **Relevance to Your Topic**: Indicate how these gaps relate to your own research interests (optional if provided).
+
+Output Format:
+- **Identified Research Gaps**:
+- Gap 1: [Paraphrased summary]
+- "Direct quote or page reference"
+- Gap 2: ...
+- **Suggested Directions** (if given by authors)
+- **How it connects to your research**: prospective LCA with the focus on food industry
+
+
+Notes and Considerations:
+- Use only the explicit content from the paper.
+- Differentiate between general research trends and gaps specific to the paper’s field.
+- Mention if the paper does not clearly define a gap.
 ```
 Output:
 ```
- 
+ Identified Research Gaps
+
+    Gap 1: Limited Understanding of Environmental Impacts of Emerging Technologies
+        The authors note that "information of environmental impacts related to iCycle is limited" and mention that most recycling technologies are still at low technology readiness levels (TRL) with "unknown environmental impacts" (Page 1269).
+    Gap 2: Lack of Comprehensive Scenario Analysis for Pyrolysis Oil
+        The study highlights that "future scenarios for the technology and possibilities to obtain valuable resources from the pyrolysis oil have not been explored yet" (Page 1270). This suggests a lack of research into how to effectively utilize pyrolysis oil beyond its immediate applications.
+    Gap 3: Inconsistency in Prospective LCA Methodologies
+        The authors state that "there is a lack of consistency in prospective LCA" and emphasize challenges such as comparability, data limitations, and uncertainty (Page 1271). This indicates a broader issue within the field regarding methodological standards.
+    Gap 4: Absence of Validated Future Scenarios with Scale-Up Data
+        The authors indicate that "data, especially scale-up data, is rare or even not available at low TRL" and that "future scenarios including additional product valorization steps to obtain higher added value are needed" (Page 1274). This points to a significant gap in empirical data necessary for robust LCA applications.
+    Gap 5: Insufficient Exploration of Contaminants in Pyrolysis Oil
+        The paper mentions the presence of hazardous contaminants in pyrolysis oil, stating that "the pyrolysis oil contains several contaminants... that might need special treatment that is not modeled in this study" (Page 1278). This suggests a gap in knowledge regarding the environmental implications of these contaminants.
+
+Suggested Directions
+
+    The authors suggest that future research should focus on "developing prospective uncertainty values and data quality systems suitable for future scenario modeling" (Page 1279). They also recommend further validation of life cycle inventories and scenarios as soon as data is available (Page 1280).
+
+How it connects to your research
+These identified gaps are particularly relevant to my research interests in prospective LCA, especially in the context of the food industry. Understanding and addressing the environmental impacts of emerging recycling technologies, such as those related to WEEE, can provide valuable insights into how similar methodologies can be adapted and applied in the food sector. The need for comprehensive scenario analyses and data-driven models aligns with the challenges faced when evaluating sustainability in food production and waste management. Furthermore, investigating the implications of contaminants can be pivotal in assessing the safety and sustainability of food processing technologies.
 ```
 
+9.
+```
+Persona: You are a scientific research assistant with experience in sustainability assessment with experience with LCA.
+Objective: Help me extract and analyze key content from this document.
+Instructions:
 
+Identify the document structure (e.g., abstract, methods, results).
+
+Provide a summary of each section and include page numbers.
+
+Highlight any tables/figures and their page locations.
+
+Extract any quantitative data, e.g., emissions, costs, yields, etc.
+
+Note assumptions, uncertainties, or limitations mentioned.
+
+At the end, generate 3–5 tags or keywords describing the document.
+
+Output format:
+
+Section summaries with page numbers
+
+Bullet points of key data or findings
+
+Tags/keywords
+```
+Output:
+```
+ Section Summaries with Page Numbers
+
+    Abstract (Page 1268)
+        Overview of the study focusing on the life cycle assessment (LCA) of thermo-chemical recycling of waste electrical and electronic equipment (WEEE), particularly plastics, highlighting the environmental benefits compared to current treatment methods.
+    Introduction (Page 1269)
+        Discusses the increasing amounts of WEEE and the challenges associated with recycling plastics. It introduces the iCycle process and the necessity for a prospective LCA framework to assess emerging technologies.
+    Framework for Prospective LCA of Emerging Recycling Technologies (Page 1270)
+        Outlines the methodology for prospective LCA, discussing its phases and challenges such as comparability, data scarcity, and uncertainty. Introduces a new framework tailored for emerging recycling technologies.
+    Case Study – Prospective LCA of WEEE by Pyrolysis (Page 1271)
+        Describes the application of the proposed LCA framework to the iCycle technology. It details the system boundaries, goals, and scope of the study, including the types of scenarios assessed.
+    Life Cycle Inventory (Page 1273)
+        Discusses the inventory analysis, detailing data sources for both foreground and background systems and the assumptions made for the pilot plant and commercial scale scenarios.
+    Impact Assessment (Page 1277)
+        Analyzes the environmental impacts using the Environmental Footprint methodology, focusing on climate change impacts and comparing the scenarios.
+    Results and Discussion (Page 1278)
+        Presents the findings of the LCA, including contribution analysis and climate change impacts across different scenarios. Discusses the implications of the results and limitations of the study.
+    Conclusions (Page 1281)
+        Summarizes the key findings and the importance of prospective LCA in guiding the development of recycling technologies. It emphasizes the potential environmental benefits of the iCycle process.
+
+Key Data or Findings
+
+    Climate Change Impact Reduction: The best-case scenario with chemical recycling shows a potential reduction of climate change impacts by 74% compared to current treatment methods (Page 1278).
+    Pilot Scale (PS) Processing Capacity: 41.7 kg/h; Commercial Scale (CS) estimated at 250 kg/h (Page 1274).
+    Energy Recovery and Revenues: In W2E scenarios, energy recovery is higher compared to W2R scenarios (Table 2, Page 1278).
+    CO2 Equivalent Emissions:
+        PS scenario: 5.4 kg CO2-eq/€
+        CS-1 scenario: 4.5 kg CO2-eq/€
+        Best W2R scenario (BTE-S): 2.0 kg CO2-eq/€ (Page 1279).
+
+Assumptions, Uncertainties, or Limitations Mentioned
+
+    Data Limitations: The study acknowledges a lack of scale-up data and uncertainties in future scenario modeling (Page 1270).
+    Contaminants in Pyrolysis Oil: The presence of hazardous contaminants may require additional treatment not accounted for in the current LCA (Page 1280).
+    Economic Viability: Future economic conditions and pricing fluctuations could significantly impact the results and recommendations (Page 1280).
+
+Tags/Keywords
+
+    Life Cycle Assessment (LCA)
+    Thermo-Chemical Recycling
+    Waste Electrical and Electronic Equipment (WEEE)
+    Climate Change Impacts
+    Circular Economy
+
+```
+7.
+```
+You are a science trend analyst. Your role is to identify and summarize recent developments, methods, and debates within a field by reviewing selected papers.
+
+Objective:
+Evaluate a paper to determine what new insights, tools, or perspectives it introduces to the academic community. Position these within broader research trends if possible.
+
+Instructions:
+1. **Assess Novelty**: Identify what the authors claim as their contribution. Check whether they describe new datasets, methods, applications, or interpretations.
+2. **Benchmark Against Existing Knowledge**: Highlight what differentiates this work from earlier approaches.
+3. **Summarize Key Innovations**: List what is new and why it matters.
+4. **Place in Timeline**: If known, indicate how this connects to trends in the last 3–5 years.
+
+Output Format:
+- **New Development Identified**:
+- [Innovation or insight]
+- [Page or section reference]
+- [Why it is new / important]
+- **Relation to Recent Trends**: [If available]
+
+Field of Interest:
+what is the development of prospective LCA methodollogy
+
+Notes and Considerations:
+- Focus on what’s genuinely new or different in the approach or results.
+- Be wary of overstatements—cross-check claims if possible.
+- Consider also supplementary material and references for insight into trends.
+```
+Output:
+```
+ New Development Identified
+
+    Innovation in Prospective LCA Methodology
+        Page or section reference: Section 2 (Framework for Prospective LCA of Emerging Recycling Technologies)
+        Why it is new / important: This study introduces a comprehensive framework for implementing prospective LCA specifically tailored to emerging recycling technologies, addressing challenges such as data scarcity, uncertainty, and comparability. This methodology allows for scenario modeling to guide the development of technologies like the iCycle pyrolysis process for WEEE.
+
+Relation to Recent Trends
+
+    Over the last 3–5 years, there has been an increasing focus on sustainability assessment methods, particularly for emerging technologies in waste management and recycling. This paper contributes to that trend by enhancing LCA methodologies to better evaluate future technologies and their environmental impacts, aligning with the growing emphasis on circular economy principles and sustainable development practices in waste management. The need for such frameworks has been underscored by the rising global concerns over electronic waste (WEEE) and its management.
+
+Summary of Key Innovations
+
+    Development of a Prospective LCA Framework:
+        Proposes a systematic approach to assess the environmental impacts of emerging recycling technologies.
+        Importance: Enables early identification of environmental hotspots and guides technology development towards lower impacts.
+    Economic Allocation at the Point of Substitution:
+        Introduces a method for comparing waste-to-energy (W2E) and waste-to-resource (W2R) scenarios without the burdens of upstream life cycles.
+        Importance: This approach allows for a clearer understanding of the economic viability and environmental benefits of recycling technologies.
+    Use of Scenario Modeling:
+        The framework incorporates scenario modeling to predict future impacts based on varying conditions and assumptions.
+        Importance: Offers a flexible tool for researchers and policymakers to explore different operational scenarios and their potential environmental outcomes.
+    Case Study Application:
+        Demonstrates the framework through the iCycle process, showing potential for significant reductions in climate change impacts (up to 74%).
+        Importance: Provides empirical data to support the proposed methodologies and highlights the practical relevance of prospective LCA in guiding technology decisions.
+
+Conclusion
+The study's framework for prospective LCA methodology represents a significant advancement in assessing emerging recycling technologies. By addressing existing challenges in LCA applications and offering a structured approach, it positions itself as a valuable resource for researchers and practitioners aiming to enhance sustainability in waste management practices.
+```
 
 
 
