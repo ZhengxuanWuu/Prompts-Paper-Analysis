@@ -44,7 +44,7 @@ The study finds that the pyrolysis of WEEE through the iCycle® process has the 
 ```
 3.
 ```
-Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+Explain the key findings in plain English, focusing on practical implications rather than statistical details. What do these results mean for the field?
 ```
 Output:
 ```
