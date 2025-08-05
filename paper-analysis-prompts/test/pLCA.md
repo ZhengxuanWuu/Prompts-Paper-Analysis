@@ -42,4 +42,44 @@ The authors propose a systematic framework for conducting prospective LCAs, whic
 ### Key Findings
 The study finds that the pyrolysis of WEEE through the iCycle® process has the potential to significantly reduce climate change impacts, with the best-case scenario showing a reduction of up to 74% compared to conventional treatment methods such as incineration. The results indicate that while the pilot-scale operation has a higher carbon footprint, scaling up the technology and optimizing processes can lead to substantial environmental benefits. Additionally, the framework developed for prospective LCA not only highlights the advantages of chemical recycling but also emphasizes the importance of understanding future scenarios for effective environmental decision-making. The research underscores the necessity for comprehensive data collection and collaboration between engineers and LCA experts to refine the framework further.
 ```
+3.
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+Output:
+```
+ 
+```
+
+4.
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+Output:
+```
+ 
+```
+
+5.
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+Output:
+```
+ 
+```
+
+6.
+```
+Read this academic paper and give me a 3-paragraph summary: one for the main research question, one for methodology, and one for key findings. Focus on what makes this research unique.
+```
+Output:
+```
+ 
+```
+
+
+
+
+
 
